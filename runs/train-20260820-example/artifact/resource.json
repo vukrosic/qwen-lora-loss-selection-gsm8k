@@ -1,0 +1,8 @@
+{
+  "active_mlx_memory_gb": 0.278741606,
+  "cache_mlx_memory_gb": 1.855328976,
+  "condition": "example",
+  "peak_mlx_memory_gb": 2.308864934,
+  "seed": 20260820,
+  "wall_seconds": 987.8365817070007
+}

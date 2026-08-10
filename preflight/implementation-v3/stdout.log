@@ -1,0 +1,88 @@
+{
+  "compiled_losses": {
+    "example": {
+      "loss": 2.891153335571289,
+      "supervised_tokens": 3
+    },
+    "token": {
+      "loss": 2.8887665271759033,
+      "supervised_tokens": 3
+    }
+  },
+  "corrected_mask_counts": [
+    1,
+    2
+  ],
+  "data_checks": {
+    "test": {
+      "records": 512,
+      "sequence_tokens_max": 256,
+      "strata": {
+        "long": 256,
+        "short": 256
+      },
+      "supervised_tokens_max": 194,
+      "supervised_tokens_min": 29,
+      "supervised_tokens_total": 54831
+    },
+    "train": {
+      "records": 1000,
+      "sequence_tokens_max": 256,
+      "strata": {
+        "long": 500,
+        "short": 500
+      },
+      "supervised_tokens_max": 201,
+      "supervised_tokens_min": 37,
+      "supervised_tokens_total": 105181
+    },
+    "valid": {
+      "records": 256,
+      "sequence_tokens_max": 256,
+      "strata": {
+        "long": 128,
+        "short": 128
+      },
+      "supervised_tokens_max": 189,
+      "supervised_tokens_min": 42,
+      "supervised_tokens_total": 27332
+    }
+  },
+  "fingerprints": {
+    "canonical_protocol": "74fc4ea7ea4a5c6c151790842d44717f909d23bc8b0bf8a595b251504ccd2d7e",
+    "data_lock": "ffe4cb3718a46f6ef2859bf7daebbd41186a396248a3d1aa039463aa56bafea5",
+    "evaluate_condition": "056e279db614d6a82fbc018658e6674e3ad433d5ef2d5235f49c8059c6c13c0a",
+    "losses": "6b3377b96a3304799bc2068949b613e833fa34581a9300ee75e7fc88c1a8d6b1",
+    "manifest": "3fd1ad07a6ba09eaf15ec8255425438b2f193166686a5af0366529bd3ac8bee0",
+    "natural_data": "9c39097004c5e7429ea1d190aed343189e0cc81f4939d64f4b718e73133d8ccb",
+    "select_by_validation": "05d1af9b097d32a69a9e94264cf78d830e38a465bea13df2af725b1c290348f0",
+    "train_condition": "a52109e4983dabdae389b915d83b83542f54fa3b0935652f96a0da43709d3c89"
+  },
+  "first_seed_20260820_batch": {
+    "completion_tokens": [
+      103,
+      79,
+      123,
+      76
+    ],
+    "first_record_indices": [
+      25,
+      603,
+      402,
+      244
+    ],
+    "shape": [
+      4,
+      225
+    ]
+  },
+  "model_weights_loaded": false,
+  "record_order": {
+    "epoch_zero_records": 1000,
+    "epoch_zero_unique": 1000,
+    "length_balanced_batches": false,
+    "same_seed_repeat_identical": true,
+    "sampling_with_replacement": false
+  },
+  "status": "PASS"
+}

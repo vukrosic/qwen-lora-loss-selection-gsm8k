@@ -1,0 +1,135 @@
+{
+  "data_design_sha256": "a3a0c84d6a42a4aa56c425fff2c43454f4c32f83bfe7b23724668d091b0d6a7f",
+  "data_manifest_sha256": "3fd1ad07a6ba09eaf15ec8255425438b2f193166686a5af0366529bd3ac8bee0",
+  "gates": {
+    "counts_match_frozen_design": true,
+    "each_split_balanced": true,
+    "manifest_materialized": true,
+    "no_cross_partition_near_duplicates": true,
+    "no_records_over_max_each_split": true,
+    "test_length_ratio_at_least_1_5": true
+  },
+  "max_seq_length": 256,
+  "model_path_read_only": "/Users/vukrosic/.cache/models/Qwen3-0.6B-3bit",
+  "model_weights_loaded": false,
+  "preprocessing_script_sha256": "13ae9bd506f96597437a3ca6ed22bc7f21543ba6c680fc59c1b239e1b3f2d1eb",
+  "splits": {
+    "test": {
+      "completion_tokens": {
+        "max": 194,
+        "min": 29,
+        "p10": 63.0,
+        "p50": 105.0,
+        "p90": 153.0
+      },
+      "completion_tokens_by_stratum": {
+        "long": {
+          "p10": 97.0,
+          "p50": 127.5,
+          "p90": 169.0,
+          "records": 256
+        },
+        "short": {
+          "p10": 57.0,
+          "p50": 84.0,
+          "p90": 111.5,
+          "records": 256
+        }
+      },
+      "over_max_examples": [],
+      "over_max_fraction": 0.0,
+      "over_max_records": 0,
+      "records": 512,
+      "sequence_tokens": {
+        "max": 256,
+        "min": 82,
+        "p10": 120.0,
+        "p50": 174.0,
+        "p90": 232.90000000000003
+      },
+      "sha256": "b7f0dc1e4273fb6d05f1d846c8e8dcc70b4ae2ad15ea1f20b444b9dde72c6f2c"
+    },
+    "train": {
+      "completion_tokens": {
+        "max": 201,
+        "min": 37,
+        "p10": 65.0,
+        "p50": 101.0,
+        "p90": 152.0
+      },
+      "completion_tokens_by_stratum": {
+        "long": {
+          "p10": 95.0,
+          "p50": 125.0,
+          "p90": 164.0,
+          "records": 500
+        },
+        "short": {
+          "p10": 58.0,
+          "p50": 79.0,
+          "p90": 109.0,
+          "records": 500
+        }
+      },
+      "over_max_examples": [],
+      "over_max_fraction": 0.0,
+      "over_max_records": 0,
+      "records": 1000,
+      "sequence_tokens": {
+        "max": 256,
+        "min": 88,
+        "p10": 118.0,
+        "p50": 168.5,
+        "p90": 228.10000000000002
+      },
+      "sha256": "c542cede477f18f886c77932272a7268480b93e7ece93e6d875bbc9fd0e5c44f"
+    },
+    "valid": {
+      "completion_tokens": {
+        "max": 189,
+        "min": 42,
+        "p10": 59.0,
+        "p50": 104.5,
+        "p90": 155.0
+      },
+      "completion_tokens_by_stratum": {
+        "long": {
+          "p10": 101.7,
+          "p50": 136.0,
+          "p90": 165.3,
+          "records": 128
+        },
+        "short": {
+          "p10": 52.0,
+          "p50": 76.0,
+          "p90": 110.6,
+          "records": 128
+        }
+      },
+      "over_max_examples": [],
+      "over_max_fraction": 0.0,
+      "over_max_records": 0,
+      "records": 256,
+      "sequence_tokens": {
+        "max": 256,
+        "min": 85,
+        "p10": 113.5,
+        "p50": 175.0,
+        "p90": 238.0
+      },
+      "sha256": "3225783c8c9562e7fd234f5d31fa7986ce1dd28aed8bf4ffc5111c48ee6987ea"
+    }
+  },
+  "status": "PASS",
+  "test_completion_p90_p10_ratio": 2.4285714285714284,
+  "tokenizer_class": "Qwen2Tokenizer",
+  "tokenizer_fingerprint": "2cd39526f12f9b15f90e488e0a9c71907b50f3b950f4445ddf0116dde5d45bc5",
+  "tokenizer_hashes": {
+    "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  }
+}

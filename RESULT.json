@@ -1,0 +1,172 @@
+{
+  "claim": "Validation-guided token-vs-example selection did not show supported bounded transfer: the selected arm lost primary macro-example NLL on all three seeds, while complementary final-answer exact match favored the selected arm on two seeds, producing a frozen Mixed result.",
+  "classification": "MIXED",
+  "gates": {
+    "exact_reverses_primary_direction": true,
+    "mixed": true,
+    "negative": false,
+    "selected_exact_no_worse": 2,
+    "selected_exact_strict_wins": 2,
+    "selected_mean_beats_both_fixed": false,
+    "selected_mean_does_not_beat_either_fixed": true,
+    "selected_primary_losses": 3,
+    "selected_primary_wins": 0,
+    "selected_worst_beats_both_fixed": false,
+    "selected_worst_does_not_beat_either_fixed": true,
+    "supported": false
+  },
+  "hashes": {
+    "analysis_script": "cae6b9a39941fc5660931571c78b4ad05941bc44ee6a4d09ccf845dce8a68ac8",
+    "canonical_protocol": "74fc4ea7ea4a5c6c151790842d44717f909d23bc8b0bf8a595b251504ccd2d7e",
+    "data_lock": "ffe4cb3718a46f6ef2859bf7daebbd41186a396248a3d1aa039463aa56bafea5",
+    "implementation_preflight": "7b6997b05b0cd91aaf8b24f520e5804b65d4a47ed6064eb4efb23dc271cc4ea6",
+    "metrics": {
+      "test-20260820-example": "0df464c41cc451d4b353c1bdc3b43a7617b9b191091d49f9624d29a3733162af",
+      "test-20260820-token": "5db9373eb18e291af1faaa96796b39f81a39c0914bca6f3c36192ff4f550d6bc",
+      "test-20260821-example": "d884e57a6a7e87162fdb68ec2155fe65ee790533a3477b6edf48e3e429013cbe",
+      "test-20260821-token": "2de9c1b03f467ca13950b90f207ac1f343cbf9147b16599a978722ded165db40",
+      "test-20260822-example": "27d1f9d4b2b94ad591a6267f185422304084cbc3c22f801eb9e8f56330beafa6",
+      "test-20260822-token": "e4e02af3d0cd120adc36691321071567d040f4367237d378c3896064d2fb5e83",
+      "valid-20260820-example": "92f90f60d4cc18c8fd75b3e6b46fb93065e695fda55f01ae16577a9c723b13df",
+      "valid-20260820-token": "49e697260f465884d1541a4319a67ea06b22e94b8d596dc74ae83c417819a87b",
+      "valid-20260821-example": "b4c81131f4a47e8c6f3c7887cedd13c6caa512b2bb0e9d9205baae88a2c06658",
+      "valid-20260821-token": "5f2105608dd2999a805ea3713aca05d7a3bf3e4c123e013dbcf006635554d332",
+      "valid-20260822-example": "237022316285ef443ce87a973ab59ec31c1b4ca5d8c6d534fdf20b8c734d1ca0",
+      "valid-20260822-token": "dbfd6f8409ace57fa8e8a215f86d6b7e49773937564656880729a621c88f2b6d"
+    },
+    "selections": {
+      "20260820": "70a3269fe33f5da51078c9abe6885936590d6b757cafb760237a89edb4bd1b9c",
+      "20260821": "a388ed039da8ad6e481c8c222a01674f47d745da56416a594315f3f42ecf6e68",
+      "20260822": "8dd48989d820f00a66a40288ea1c5ae789ea04f781c1433c60037b7af0cc680b"
+    },
+    "skeleton_audit": "1287f13bbe43df9dfb40c6d60f91a0415f8620933bb4315b238beebf71d8ae1b"
+  },
+  "informativeness": {
+    "exact_answer": true,
+    "max_paired_per_record_macro_nll_difference": 0.44791666666666663,
+    "nll": true
+  },
+  "limitations": [
+    "One locked 1000/256/512 subset of public GSM8K main, restricted to complete rendered records of at most 256 tokens.",
+    "Qwen3-0.6B 3-bit with one fixed LoRA recipe and only three fresh paired seeds.",
+    "Public static benchmark exposure or pretraining contamination cannot be excluded; this is within-dataset transfer only.",
+    "Final-number exact match is complementary, not independent, and does not assess rationale quality.",
+    "Exact-match rates are low and marker rates are below one, limiting capability interpretation.",
+    "The result does not establish broad natural-instruction transfer, other models, other datasets, or other training budgets."
+  ],
+  "per_seed": [
+    {
+      "seed": 20260820,
+      "selected": "example",
+      "selected_exact_answer": 0.06640625,
+      "selected_macro_example_nll": 0.9119708141461684,
+      "selected_marker_rate": 0.919921875,
+      "selected_minus_unselected_exact": 0.03125,
+      "selected_minus_unselected_macro_nll": 0.001724983091857868,
+      "unselected_exact_answer": 0.03515625,
+      "unselected_macro_example_nll": 0.9102458310543106,
+      "unselected_marker_rate": 0.919921875,
+      "validation_token_weighted_nll": {
+        "example": 0.9419887860383434,
+        "token": 0.9426153409922435
+      }
+    },
+    {
+      "seed": 20260821,
+      "selected": "example",
+      "selected_exact_answer": 0.046875,
+      "selected_macro_example_nll": 0.916401164373651,
+      "selected_marker_rate": 0.88671875,
+      "selected_minus_unselected_exact": 0.01171875,
+      "selected_minus_unselected_macro_nll": 0.0036368645868184446,
+      "unselected_exact_answer": 0.03515625,
+      "unselected_macro_example_nll": 0.9127642997868326,
+      "unselected_marker_rate": 0.873046875,
+      "validation_token_weighted_nll": {
+        "example": 0.9485607529635592,
+        "token": 0.9520685460266355
+      }
+    },
+    {
+      "seed": 20260822,
+      "selected": "token",
+      "selected_exact_answer": 0.03515625,
+      "selected_macro_example_nll": 0.9262693996901402,
+      "selected_marker_rate": 0.931640625,
+      "selected_minus_unselected_exact": -0.005859375,
+      "selected_minus_unselected_macro_nll": 0.0020379090408096934,
+      "unselected_exact_answer": 0.041015625,
+      "unselected_macro_example_nll": 0.9242314906493305,
+      "unselected_marker_rate": 0.921875,
+      "validation_token_weighted_nll": {
+        "example": 0.9530152385482219,
+        "token": 0.9511790209278501
+      }
+    }
+  ],
+  "policies": {
+    "example": {
+      "exact_answer_mean": 0.051432291666666664,
+      "exact_answer_worst": 0.041015625,
+      "macro_example_nll_mean": 0.91753448972305,
+      "macro_example_nll_worst": 0.9242314906493305,
+      "marker_rate_mean": 0.9095052083333334,
+      "per_seed_exact_answer": [
+        0.06640625,
+        0.046875,
+        0.041015625
+      ],
+      "per_seed_macro_example_nll": [
+        0.9119708141461684,
+        0.916401164373651,
+        0.9242314906493305
+      ]
+    },
+    "selected": {
+      "exact_answer_mean": 0.049479166666666664,
+      "exact_answer_worst": 0.03515625,
+      "macro_example_nll_mean": 0.9182137927366533,
+      "macro_example_nll_worst": 0.9262693996901402,
+      "marker_rate_mean": 0.9127604166666666,
+      "per_seed_exact_answer": [
+        0.06640625,
+        0.046875,
+        0.03515625
+      ],
+      "per_seed_macro_example_nll": [
+        0.9119708141461684,
+        0.916401164373651,
+        0.9262693996901402
+      ]
+    },
+    "token": {
+      "exact_answer_mean": 0.03515625,
+      "exact_answer_worst": 0.03515625,
+      "macro_example_nll_mean": 0.9164265101770944,
+      "macro_example_nll_worst": 0.9262693996901402,
+      "marker_rate_mean": 0.908203125,
+      "per_seed_exact_answer": [
+        0.03515625,
+        0.03515625,
+        0.03515625
+      ],
+      "per_seed_macro_example_nll": [
+        0.9102458310543106,
+        0.9127642997868326,
+        0.9262693996901402
+      ]
+    }
+  },
+  "schema": "N1-GSM8K-A1-result-v1",
+  "validity": {
+    "all_hashes_match": true,
+    "all_selection_timestamps_precede_test": true,
+    "all_six_tests_complete_512_teacher_forced_and_512_generations": true,
+    "all_six_training_arms_exactly_576_updates": true,
+    "all_six_training_arms_exit_0": true,
+    "all_six_validations_complete_256_records": true,
+    "model_slot_released": true,
+    "single_model_process_ledger": "PROCESS-STATE.md",
+    "status": "PASS"
+  }
+}

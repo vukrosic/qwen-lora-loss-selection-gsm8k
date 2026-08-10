@@ -1,0 +1,75 @@
+{
+  "compiled_losses": {
+    "example": {
+      "loss": 2.891153335571289,
+      "supervised_tokens": 3
+    },
+    "token": {
+      "loss": 2.8887665271759033,
+      "supervised_tokens": 3
+    }
+  },
+  "corrected_mask_counts": [
+    1,
+    2
+  ],
+  "data_checks": {
+    "test": {
+      "records": 512,
+      "sequence_tokens_max": 256,
+      "strata": {
+        "long": 256,
+        "short": 256
+      },
+      "supervised_tokens_max": 194,
+      "supervised_tokens_min": 29,
+      "supervised_tokens_total": 54831
+    },
+    "train": {
+      "records": 1000,
+      "sequence_tokens_max": 256,
+      "strata": {
+        "long": 500,
+        "short": 500
+      },
+      "supervised_tokens_max": 201,
+      "supervised_tokens_min": 37,
+      "supervised_tokens_total": 105181
+    },
+    "valid": {
+      "records": 256,
+      "sequence_tokens_max": 256,
+      "strata": {
+        "long": 128,
+        "short": 128
+      },
+      "supervised_tokens_max": 189,
+      "supervised_tokens_min": 42,
+      "supervised_tokens_total": 27332
+    }
+  },
+  "fingerprints": {
+    "canonical_protocol": "af0b12dd34c3bc9b31d5e88b8af8ab0faa69d982c69803d4f14980029f4c22ea",
+    "data_lock": "ffe4cb3718a46f6ef2859bf7daebbd41186a396248a3d1aa039463aa56bafea5",
+    "evaluate_condition": "056e279db614d6a82fbc018658e6674e3ad433d5ef2d5235f49c8059c6c13c0a",
+    "losses": "6b3377b96a3304799bc2068949b613e833fa34581a9300ee75e7fc88c1a8d6b1",
+    "manifest": "3fd1ad07a6ba09eaf15ec8255425438b2f193166686a5af0366529bd3ac8bee0",
+    "natural_data": "5139601cbe6b90843b416ae6351e45bea33af0421b817298defcfc3c1d76f09b",
+    "select_by_validation": "05d1af9b097d32a69a9e94264cf78d830e38a465bea13df2af725b1c290348f0",
+    "train_condition": "ad775aa2f9880dc8ede5d93a2b029257f2d0c480d59402d3986bb4a8137f5349"
+  },
+  "first_seed_20260820_batch": {
+    "completion_tokens": [
+      94,
+      113,
+      87,
+      173
+    ],
+    "shape": [
+      4,
+      256
+    ]
+  },
+  "model_weights_loaded": false,
+  "status": "PASS"
+}

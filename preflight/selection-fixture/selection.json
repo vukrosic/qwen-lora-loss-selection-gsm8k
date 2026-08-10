@@ -1,0 +1,23 @@
+{
+  "adapter_sha256": {
+    "example": "fixture-example-adapter-sha256",
+    "token": "fixture-token-adapter-sha256"
+  },
+  "data_lock_sha256": "fixture-lock-sha256",
+  "fingerprints": {
+    "example_validation": "26700a77b47d474f4682ded8bb0f0c989f9a52e0b900719a6da9d8db8dc662fc",
+    "token_validation": "69d37b5e39f2bec40a42674d68f8775a8bb9607e12e0095c8e369e3dfbb41162"
+  },
+  "metric": "token_weighted_nll",
+  "protocol_sha256": "fixture-protocol-sha256",
+  "rule": "lower common validation token_weighted_nll; exact tie chooses token",
+  "sealed_at": "2026-08-10T01:51:22.522908+08:00",
+  "seed": 20260820,
+  "selected_condition": "token",
+  "split_sha256": "fixture-split-sha256",
+  "test_evaluation_status_at_seal": "NOT_STARTED",
+  "validation_metric": {
+    "example": 1.5,
+    "token": 1.25
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "child_pid": 29547,
+  "command": [
+    "/Users/vukrosic/miniconda3/bin/python3",
+    "prepare_gsm8k.py",
+    "--source-train",
+    "source/gsm8k-3101c7d5072418e28b9008a6636bde82a006892c/train.jsonl",
+    "--source-test",
+    "source/gsm8k-3101c7d5072418e28b9008a6636bde82a006892c/test.jsonl",
+    "--source-license",
+    "source/gsm8k-3101c7d5072418e28b9008a6636bde82a006892c/LICENSE",
+    "--tokenizer-model",
+    "/Users/vukrosic/.cache/models/Qwen3-0.6B-3bit",
+    "--max-seq-length",
+    "256",
+    "--output",
+    "data/v2"
+  ],
+  "cwd": "/Users/vukrosic/my-life/open-discovery/initiatives/lora-natural-data-selection-20260810/projects/implementation-integration",
+  "ended_at": "2026-08-10T01:47:34.059844+08:00",
+  "exit_code": 0,
+  "launcher_pid": 29204,
+  "started_at": "2026-08-10T01:47:23.521558+08:00",
+  "status": "COMPLETED",
+  "wall_seconds": 10.538110582972877
+}

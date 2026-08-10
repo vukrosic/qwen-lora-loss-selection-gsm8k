@@ -1,0 +1,62 @@
+{
+  "batch_size": 4,
+  "condition": "token",
+  "dataset_validation": {
+    "train": {
+      "records": 1000,
+      "sequence_tokens_max": 256,
+      "strata": {
+        "long": 500,
+        "short": 500
+      },
+      "supervised_tokens_max": 201,
+      "supervised_tokens_min": 37,
+      "supervised_tokens_total": 105181
+    },
+    "valid": {
+      "records": 256,
+      "sequence_tokens_max": 256,
+      "strata": {
+        "long": 128,
+        "short": 128
+      },
+      "supervised_tokens_max": 189,
+      "supervised_tokens_min": 42,
+      "supervised_tokens_total": 27332
+    }
+  },
+  "environment": {
+    "mlx": "0.31.2",
+    "mlx-lm": "0.31.3",
+    "numpy": "2.2.5",
+    "python_executable": "/Users/vukrosic/miniconda3/bin/python3",
+    "python_version": "3.12.8 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 10:37:40) [Clang 14.0.6 ]"
+  },
+  "fine_tune_type": "lora",
+  "fingerprints": {
+    "canonical_protocol": "74fc4ea7ea4a5c6c151790842d44717f909d23bc8b0bf8a595b251504ccd2d7e",
+    "data_lock": "ffe4cb3718a46f6ef2859bf7daebbd41186a396248a3d1aa039463aa56bafea5",
+    "data_manifest": "3fd1ad07a6ba09eaf15ec8255425438b2f193166686a5af0366529bd3ac8bee0",
+    "losses": "6b3377b96a3304799bc2068949b613e833fa34581a9300ee75e7fc88c1a8d6b1",
+    "model_config": "7319e769e58a8d819f67a83b3d413624a4a143dccde0d0d326b223ca74f71157",
+    "model_safetensors": "add1354a3e8ddf16fd4308ce9556b2b11c0b6e45863f8898e28e0a0bb8ae18e8",
+    "natural_data": "9c39097004c5e7429ea1d190aed343189e0cc81f4939d64f4b718e73133d8ccb",
+    "train_condition": "a52109e4983dabdae389b915d83b83542f54fa3b0935652f96a0da43709d3c89",
+    "train_split": "c542cede477f18f886c77932272a7268480b93e7ece93e6d875bbc9fd0e5c44f",
+    "valid_split": "3225783c8c9562e7fd234f5d31fa7986ce1dd28aed8bf4ffc5111c48ee6987ea"
+  },
+  "grad_accumulation_steps": 1,
+  "iters": 576,
+  "learning_rate": 0.0001,
+  "lora_parameters": {
+    "dropout": 0.0,
+    "rank": 8,
+    "scale": 20.0
+  },
+  "max_seq_length": 256,
+  "model": "/Users/vukrosic/.cache/models/Qwen3-0.6B-3bit",
+  "num_layers": 8,
+  "protocol": "N1-GSM8K-A1",
+  "seed": 20260820,
+  "weight_decay": 0.0
+}

@@ -1,0 +1,14 @@
+{
+  "condition": "example",
+  "data_lock_sha256": "fixture-lock-sha256",
+  "fingerprints": {
+    "adapters": "fixture-example-adapter-sha256"
+  },
+  "protocol_sha256": "fixture-protocol-sha256",
+  "seed": 20260820,
+  "split": "valid",
+  "split_sha256": "fixture-split-sha256",
+  "summary": {
+    "token_weighted_nll": 1.5
+  }
+}

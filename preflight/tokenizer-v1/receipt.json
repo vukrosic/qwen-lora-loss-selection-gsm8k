@@ -1,0 +1,22 @@
+{
+  "child_pid": 28600,
+  "command": [
+    "/Users/vukrosic/miniconda3/bin/python3",
+    "tokenizer_preflight.py",
+    "--model",
+    "/Users/vukrosic/.cache/models/Qwen3-0.6B-3bit",
+    "--data",
+    "data/v1",
+    "--output",
+    "DATASET-LOCK-v1.json",
+    "--max-seq-length",
+    "256"
+  ],
+  "cwd": "/Users/vukrosic/my-life/open-discovery/initiatives/lora-natural-data-selection-20260810/projects/implementation-integration",
+  "ended_at": "2026-08-10T01:46:00.904634+08:00",
+  "exit_code": 2,
+  "launcher_pid": 28262,
+  "started_at": "2026-08-10T01:45:54.399510+08:00",
+  "status": "FAILED",
+  "wall_seconds": 6.504867707990343
+}

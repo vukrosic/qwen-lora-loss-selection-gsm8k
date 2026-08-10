@@ -1,0 +1,46 @@
+{
+  "condition": "example",
+  "data_lock_sha256": "ffe4cb3718a46f6ef2859bf7daebbd41186a396248a3d1aa039463aa56bafea5",
+  "environment": {
+    "mlx": "0.31.2",
+    "mlx-lm": "0.31.3",
+    "python_executable": "/Users/vukrosic/miniconda3/bin/python3",
+    "python_version": "3.12.8 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 10:37:40) [Clang 14.0.6 ]"
+  },
+  "fingerprints": {
+    "adapter_config": "c1eb592ae515faca2aaeef84ed4543d1605073533ae376167cd5a4f376df56d6",
+    "adapters": "478a951cff979493f11aa3b5c5386f113977ef0f81d4efafa5deee5131e2f805",
+    "evaluate_condition": "056e279db614d6a82fbc018658e6674e3ad433d5ef2d5235f49c8059c6c13c0a"
+  },
+  "protocol": "N1-GSM8K-A1",
+  "protocol_sha256": "74fc4ea7ea4a5c6c151790842d44717f909d23bc8b0bf8a595b251504ccd2d7e",
+  "records": 256,
+  "resource": {
+    "active_mlx_memory_gb": 0.57661648,
+    "cache_mlx_memory_gb": 5.219177948,
+    "peak_mlx_memory_gb": 1.756385584,
+    "wall_seconds": 54.3316810131073
+  },
+  "seed": 20260821,
+  "split": "valid",
+  "split_sha256": "3225783c8c9562e7fd234f5d31fa7986ce1dd28aed8bf4ffc5111c48ee6987ea",
+  "summary": {
+    "by_stratum": {
+      "long": {
+        "macro_example_nll": 1.0356442925247547,
+        "records": 128,
+        "target_token_accuracy": 0.7687349856448116,
+        "token_weighted_nll": 1.0291571453682544
+      },
+      "short": {
+        "macro_example_nll": 0.8130272593149214,
+        "records": 128,
+        "target_token_accuracy": 0.812469556746225,
+        "token_weighted_nll": 0.8145579639551875
+      }
+    },
+    "macro_example_nll": 0.924335775919838,
+    "target_token_accuracy": 0.785160251719596,
+    "token_weighted_nll": 0.9485607529635592
+  }
+}

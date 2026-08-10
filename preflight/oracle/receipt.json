@@ -1,0 +1,14 @@
+{
+  "child_pid": 15438,
+  "command": [
+    "/Users/vukrosic/miniconda3/bin/python3",
+    "oracle.py"
+  ],
+  "cwd": "/Users/vukrosic/my-life/open-discovery/initiatives/lora-natural-data-selection-20260810/projects/implementation-integration",
+  "ended_at": "2026-08-10T01:39:09.872547+08:00",
+  "exit_code": 0,
+  "launcher_pid": 15099,
+  "started_at": "2026-08-10T01:39:09.669314+08:00",
+  "status": "COMPLETED",
+  "wall_seconds": 0.20297158299945295
+}

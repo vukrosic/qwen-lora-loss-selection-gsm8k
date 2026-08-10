@@ -1,0 +1,13 @@
+{
+  "cross_partition_overlap_groups": 0,
+  "overlaps": [],
+  "question_only": true,
+  "rule": "NFKC + lowercase + whitespace collapse + signed integer/decimal/percent/currency replacement with <NUM>",
+  "split_sha256": {
+    "test": "b7f0dc1e4273fb6d05f1d846c8e8dcc70b4ae2ad15ea1f20b444b9dde72c6f2c",
+    "train": "c542cede477f18f886c77932272a7268480b93e7ece93e6d875bbc9fd0e5c44f",
+    "valid": "3225783c8c9562e7fd234f5d31fa7986ce1dd28aed8bf4ffc5111c48ee6987ea"
+  },
+  "status": "PASS",
+  "unique_skeletons": 1768
+}

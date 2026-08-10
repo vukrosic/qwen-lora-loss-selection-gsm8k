@@ -1,0 +1,23 @@
+{
+  "adapter_sha256": {
+    "example": "d8a92e76113b23e4baf735286605a919e9931ccd0c0aac25848e282a97ef864b",
+    "token": "7821e482332b9136f33935016ea2e18919c25bcda34fcc9ceb52fef76a5c6f41"
+  },
+  "data_lock_sha256": "ffe4cb3718a46f6ef2859bf7daebbd41186a396248a3d1aa039463aa56bafea5",
+  "fingerprints": {
+    "example_validation": "237022316285ef443ce87a973ab59ec31c1b4ca5d8c6d534fdf20b8c734d1ca0",
+    "token_validation": "dbfd6f8409ace57fa8e8a215f86d6b7e49773937564656880729a621c88f2b6d"
+  },
+  "metric": "token_weighted_nll",
+  "protocol_sha256": "74fc4ea7ea4a5c6c151790842d44717f909d23bc8b0bf8a595b251504ccd2d7e",
+  "rule": "lower common validation token_weighted_nll; exact tie chooses token",
+  "sealed_at": "2026-08-10T04:47:09.438497+08:00",
+  "seed": 20260822,
+  "selected_condition": "token",
+  "split_sha256": "3225783c8c9562e7fd234f5d31fa7986ce1dd28aed8bf4ffc5111c48ee6987ea",
+  "test_evaluation_status_at_seal": "NOT_STARTED",
+  "validation_metric": {
+    "example": 0.9530152385482219,
+    "token": 0.9511790209278501
+  }
+}

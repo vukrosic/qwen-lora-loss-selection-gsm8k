@@ -1,0 +1,27 @@
+{
+  "equal_case": {
+    "example": 2.0,
+    "token": 2.0
+  },
+  "mask": [
+    [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "status": "PASS",
+  "unequal_case": {
+    "example": 1.0,
+    "token": 1.3333333333333333
+  }
+}

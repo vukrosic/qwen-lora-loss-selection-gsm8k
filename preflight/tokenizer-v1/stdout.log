@@ -1,0 +1,378 @@
+{
+  "data_design_sha256": "5a7aa32322ec07cc42943b448d43ea06d94497a0accfd368710b99aaba51f978",
+  "data_manifest_sha256": "de9a00477c9f2dc069bb6266102b1c8b5a8b9e1ba9f0076c2f1718d558974f1e",
+  "gates": {
+    "counts_match_frozen_design": true,
+    "each_split_balanced": true,
+    "manifest_materialized": true,
+    "no_cross_partition_near_duplicates": true,
+    "no_records_over_max_each_split": false,
+    "test_length_ratio_at_least_1_5": true
+  },
+  "max_seq_length": 256,
+  "model_path_read_only": "/Users/vukrosic/.cache/models/Qwen3-0.6B-3bit",
+  "model_weights_loaded": false,
+  "preprocessing_script_sha256": "630225f147f737d28567c21d00c669075c1b3e548e29d809be915ce0ceada436",
+  "splits": {
+    "test": {
+      "completion_tokens": {
+        "max": 415,
+        "min": 29,
+        "p10": 65.0,
+        "p50": 114.0,
+        "p90": 198.90000000000003
+      },
+      "completion_tokens_by_stratum": {
+        "long": {
+          "p10": 110.0,
+          "p50": 154.5,
+          "p90": 218.5,
+          "records": 256
+        },
+        "short": {
+          "p10": 57.0,
+          "p50": 87.5,
+          "p90": 119.0,
+          "records": 256
+        }
+      },
+      "over_max_examples": [
+        {
+          "id": "gsm8k-test-00331",
+          "tokens": 533
+        },
+        {
+          "id": "gsm8k-test-00119",
+          "tokens": 457
+        },
+        {
+          "id": "gsm8k-test-00710",
+          "tokens": 400
+        },
+        {
+          "id": "gsm8k-test-01029",
+          "tokens": 390
+        },
+        {
+          "id": "gsm8k-test-01209",
+          "tokens": 372
+        },
+        {
+          "id": "gsm8k-test-00227",
+          "tokens": 362
+        },
+        {
+          "id": "gsm8k-test-00155",
+          "tokens": 362
+        },
+        {
+          "id": "gsm8k-test-00415",
+          "tokens": 358
+        },
+        {
+          "id": "gsm8k-test-00696",
+          "tokens": 358
+        },
+        {
+          "id": "gsm8k-test-00876",
+          "tokens": 358
+        },
+        {
+          "id": "gsm8k-test-01038",
+          "tokens": 355
+        },
+        {
+          "id": "gsm8k-test-00422",
+          "tokens": 354
+        },
+        {
+          "id": "gsm8k-test-00724",
+          "tokens": 351
+        },
+        {
+          "id": "gsm8k-test-00100",
+          "tokens": 345
+        },
+        {
+          "id": "gsm8k-test-01199",
+          "tokens": 345
+        },
+        {
+          "id": "gsm8k-test-00746",
+          "tokens": 340
+        },
+        {
+          "id": "gsm8k-test-00965",
+          "tokens": 339
+        },
+        {
+          "id": "gsm8k-test-00966",
+          "tokens": 339
+        },
+        {
+          "id": "gsm8k-test-00798",
+          "tokens": 336
+        },
+        {
+          "id": "gsm8k-test-00927",
+          "tokens": 332
+        }
+      ],
+      "over_max_fraction": 0.1875,
+      "over_max_records": 96,
+      "records": 512,
+      "sequence_tokens": {
+        "max": 533,
+        "min": 82,
+        "p10": 121.0,
+        "p50": 185.5,
+        "p90": 290.0
+      },
+      "sha256": "07321e37bc205b6ee68dcb43de796fe1d601b5739e4ab462c80514827359dba8"
+    },
+    "train": {
+      "completion_tokens": {
+        "max": 384,
+        "min": 37,
+        "p10": 65.0,
+        "p50": 111.0,
+        "p90": 204.10000000000002
+      },
+      "completion_tokens_by_stratum": {
+        "long": {
+          "p10": 106.0,
+          "p50": 153.0,
+          "p90": 232.10000000000002,
+          "records": 500
+        },
+        "short": {
+          "p10": 59.0,
+          "p50": 84.0,
+          "p90": 116.0,
+          "records": 500
+        }
+      },
+      "over_max_examples": [
+        {
+          "id": "gsm8k-train-04967",
+          "tokens": 530
+        },
+        {
+          "id": "gsm8k-train-06274",
+          "tokens": 493
+        },
+        {
+          "id": "gsm8k-train-01971",
+          "tokens": 464
+        },
+        {
+          "id": "gsm8k-train-00839",
+          "tokens": 442
+        },
+        {
+          "id": "gsm8k-train-01380",
+          "tokens": 440
+        },
+        {
+          "id": "gsm8k-train-04174",
+          "tokens": 414
+        },
+        {
+          "id": "gsm8k-train-07043",
+          "tokens": 408
+        },
+        {
+          "id": "gsm8k-train-05809",
+          "tokens": 405
+        },
+        {
+          "id": "gsm8k-train-07157",
+          "tokens": 405
+        },
+        {
+          "id": "gsm8k-train-00121",
+          "tokens": 391
+        },
+        {
+          "id": "gsm8k-train-04598",
+          "tokens": 386
+        },
+        {
+          "id": "gsm8k-train-03645",
+          "tokens": 385
+        },
+        {
+          "id": "gsm8k-train-00261",
+          "tokens": 378
+        },
+        {
+          "id": "gsm8k-train-04583",
+          "tokens": 377
+        },
+        {
+          "id": "gsm8k-train-06417",
+          "tokens": 376
+        },
+        {
+          "id": "gsm8k-train-03085",
+          "tokens": 367
+        },
+        {
+          "id": "gsm8k-train-05450",
+          "tokens": 366
+        },
+        {
+          "id": "gsm8k-train-03411",
+          "tokens": 364
+        },
+        {
+          "id": "gsm8k-train-06700",
+          "tokens": 364
+        },
+        {
+          "id": "gsm8k-train-05116",
+          "tokens": 363
+        }
+      ],
+      "over_max_fraction": 0.182,
+      "over_max_records": 182,
+      "records": 1000,
+      "sequence_tokens": {
+        "max": 530,
+        "min": 88,
+        "p10": 121.9,
+        "p50": 181.0,
+        "p90": 292.0
+      },
+      "sha256": "8db3ca6b6a4790a9b3cd339f38db5129c53c44ffff0bbdba540ffd63cdeb29a9"
+    },
+    "valid": {
+      "completion_tokens": {
+        "max": 378,
+        "min": 42,
+        "p10": 62.5,
+        "p50": 122.0,
+        "p90": 199.5
+      },
+      "completion_tokens_by_stratum": {
+        "long": {
+          "p10": 113.7,
+          "p50": 152.0,
+          "p90": 236.79999999999995,
+          "records": 128
+        },
+        "short": {
+          "p10": 53.7,
+          "p50": 82.0,
+          "p90": 142.6,
+          "records": 128
+        }
+      },
+      "over_max_examples": [
+        {
+          "id": "gsm8k-test-01011",
+          "tokens": 521
+        },
+        {
+          "id": "gsm8k-test-01086",
+          "tokens": 510
+        },
+        {
+          "id": "gsm8k-test-00284",
+          "tokens": 431
+        },
+        {
+          "id": "gsm8k-test-01176",
+          "tokens": 416
+        },
+        {
+          "id": "gsm8k-test-00831",
+          "tokens": 405
+        },
+        {
+          "id": "gsm8k-test-00926",
+          "tokens": 394
+        },
+        {
+          "id": "gsm8k-test-00806",
+          "tokens": 392
+        },
+        {
+          "id": "gsm8k-test-01122",
+          "tokens": 384
+        },
+        {
+          "id": "gsm8k-test-01249",
+          "tokens": 382
+        },
+        {
+          "id": "gsm8k-test-01094",
+          "tokens": 376
+        },
+        {
+          "id": "gsm8k-test-01166",
+          "tokens": 352
+        },
+        {
+          "id": "gsm8k-test-00777",
+          "tokens": 351
+        },
+        {
+          "id": "gsm8k-test-00690",
+          "tokens": 349
+        },
+        {
+          "id": "gsm8k-test-00721",
+          "tokens": 348
+        },
+        {
+          "id": "gsm8k-test-00183",
+          "tokens": 344
+        },
+        {
+          "id": "gsm8k-test-00137",
+          "tokens": 340
+        },
+        {
+          "id": "gsm8k-test-00186",
+          "tokens": 326
+        },
+        {
+          "id": "gsm8k-test-01264",
+          "tokens": 323
+        },
+        {
+          "id": "gsm8k-test-01173",
+          "tokens": 319
+        },
+        {
+          "id": "gsm8k-test-00039",
+          "tokens": 317
+        }
+      ],
+      "over_max_fraction": 0.2265625,
+      "over_max_records": 58,
+      "records": 256,
+      "sequence_tokens": {
+        "max": 521,
+        "min": 85,
+        "p10": 118.0,
+        "p50": 197.0,
+        "p90": 298.0
+      },
+      "sha256": "5ab8bcf7735756e5c8846362d78169883d80bdcfee663cc08cd1bfd4557bd004"
+    }
+  },
+  "status": "FAIL",
+  "test_completion_p90_p10_ratio": 3.0600000000000005,
+  "tokenizer_class": "Qwen2Tokenizer",
+  "tokenizer_fingerprint": "2cd39526f12f9b15f90e488e0a9c71907b50f3b950f4445ddf0116dde5d45bc5",
+  "tokenizer_hashes": {
+    "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  }
+}

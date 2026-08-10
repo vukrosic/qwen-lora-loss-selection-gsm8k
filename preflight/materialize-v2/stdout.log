@@ -1,0 +1,66 @@
+{
+  "corpus": "GSM8K main",
+  "cross_partition_near_duplicates": 0,
+  "design": "official-train-only training; disjoint official-test validation/final",
+  "exact_duplicate_exclusions": 0,
+  "length_exclusions": {
+    "ledger_sha256": "1d3ef5da6dfda8694f633a79ea72816784b17d4f52405f51cea17e9f0264c5ae",
+    "test": 242,
+    "total": 1504,
+    "train": 1262
+  },
+  "license": "MIT",
+  "max_seq_length": 256,
+  "near_duplicate_rule": "canonical prompt+completion token 5-shingle Jaccard >= 0.90",
+  "selection_seed": 20260810,
+  "source": {
+    "license_sha256": "86bbb73e855821d7c401912fd4bf82e34313e6e3b6fd6f909f2b6cc9e209a53b",
+    "test": {
+      "records": 1319,
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    },
+    "train": {
+      "records": 7473,
+      "sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465"
+    }
+  },
+  "splits": {
+    "test": {
+      "answer_whitespace_tokens_max": 114,
+      "answer_whitespace_tokens_min": 6,
+      "long": 256,
+      "records": 512,
+      "sha256": "b7f0dc1e4273fb6d05f1d846c8e8dcc70b4ae2ad15ea1f20b444b9dde72c6f2c",
+      "short": 256,
+      "source_splits": [
+        "test"
+      ]
+    },
+    "train": {
+      "answer_whitespace_tokens_max": 130,
+      "answer_whitespace_tokens_min": 6,
+      "long": 500,
+      "records": 1000,
+      "sha256": "c542cede477f18f886c77932272a7268480b93e7ece93e6d875bbc9fd0e5c44f",
+      "short": 500,
+      "source_splits": [
+        "train"
+      ]
+    },
+    "valid": {
+      "answer_whitespace_tokens_max": 106,
+      "answer_whitespace_tokens_min": 5,
+      "long": 128,
+      "records": 256,
+      "sha256": "3225783c8c9562e7fd234f5d31fa7986ce1dd28aed8bf4ffc5111c48ee6987ea",
+      "short": 128,
+      "source_splits": [
+        "test"
+      ]
+    }
+  },
+  "status": "MATERIALIZED",
+  "target_rule": "first numeric value following ####; commas removed; Decimal equality",
+  "tokenizer_eligible_filter": true,
+  "upstream_commit": "3101c7d5072418e28b9008a6636bde82a006892c"
+}

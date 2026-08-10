@@ -1,0 +1,26 @@
+Trainable parameters: 0.242% (1.442M/596.050M)
+Starting training..., iters: 576
+Iter 1: Val loss 1.976, Val took 59.111s
+Iter 48: Train loss 1.051, Learning Rate 1.000e-04, It/sec 0.655, Tokens/sec 270.120, Trained Tokens 19806, Peak mem 2.309 GB
+Iter 96: Train loss 0.852, Learning Rate 1.000e-04, It/sec 0.661, Tokens/sec 288.579, Trained Tokens 40757, Peak mem 2.309 GB
+Iter 144: Train loss 0.823, Learning Rate 1.000e-04, It/sec 0.641, Tokens/sec 263.263, Trained Tokens 60463, Peak mem 2.309 GB
+Iter 192: Train loss 0.804, Learning Rate 1.000e-04, It/sec 0.665, Tokens/sec 276.005, Trained Tokens 80399, Peak mem 2.309 GB
+Iter 240: Train loss 0.765, Learning Rate 1.000e-04, It/sec 0.672, Tokens/sec 286.675, Trained Tokens 100873, Peak mem 2.309 GB
+Iter 288: Train loss 0.599, Learning Rate 1.000e-04, It/sec 0.643, Tokens/sec 272.469, Trained Tokens 121216, Peak mem 2.309 GB
+Iter 336: Train loss 0.533, Learning Rate 1.000e-04, It/sec 0.662, Tokens/sec 275.868, Trained Tokens 141230, Peak mem 2.309 GB
+Iter 384: Train loss 0.551, Learning Rate 1.000e-04, It/sec 0.672, Tokens/sec 289.690, Trained Tokens 161920, Peak mem 2.309 GB
+Iter 432: Train loss 0.535, Learning Rate 1.000e-04, It/sec 0.654, Tokens/sec 275.769, Trained Tokens 182155, Peak mem 2.309 GB
+Iter 480: Train loss 0.563, Learning Rate 1.000e-04, It/sec 0.664, Tokens/sec 273.751, Trained Tokens 201951, Peak mem 2.309 GB
+Iter 528: Train loss 0.421, Learning Rate 1.000e-04, It/sec 0.642, Tokens/sec 273.457, Trained Tokens 222409, Peak mem 2.309 GB
+Iter 576: Val loss 0.956, Val took 58.549s
+Iter 576: Train loss 0.326, Learning Rate 1.000e-04, It/sec 0.679, Tokens/sec 280.535, Trained Tokens 242250, Peak mem 2.309 GB
+Iter 576: Saved adapter weights to runs/train-20260821-token/artifact/adapters.safetensors and runs/train-20260821-token/artifact/0000576_adapters.safetensors.
+Saved final weights to runs/train-20260821-token/artifact/adapters.safetensors.
+{
+  "active_mlx_memory_gb": 0.278366514,
+  "cache_mlx_memory_gb": 0.100618496,
+  "condition": "token",
+  "peak_mlx_memory_gb": 2.308996634,
+  "seed": 20260821,
+  "wall_seconds": 993.3751418590546
+}
