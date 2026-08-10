@@ -1,18 +1,20 @@
-# Validation-guided LoRA loss selection on bounded GSM8K
+# Validation loss was not a reliable LoRA guide on GSM8K
 
 Status: **inspected research artifact**
 
-This repository contains the complete local evidence for a three-seed test of
-whether validation-guided selection between token-mean and example-mean LoRA
-training transfers from a prior synthetic task to a small natural instruction
-setting.
+We tested whether validation loss could choose between token-mean and
+example-mean LoRA training for Qwen3-0.6B.
 
-The answer is bounded and mixed: the validation selector lost the primary
-final-test macro-example NLL comparison on all three seeds, while complementary
-GSM8K final-number exact match favored the selected arm on two seeds. The
-frozen protocol therefore does not support bounded transfer and classifies the
-result as `MIXED` rather than `NEGATIVE` because the endpoint directions
-conflict.
+It did not give a dependable answer. The chosen model had worse primary test
+NLL on all three seeds, although it answered more final numbers correctly on
+two seeds.
+
+**Practical takeaway:** do not treat one validation-loss number as proof that
+a LoRA training objective is better. Check the final metric you actually care
+about and preserve a held-out test.
+
+The result is called `MIXED` because the two test measures point in different
+directions—not because the experiment was unfinished.
 
 See `RESULT.md` for the inspected result and limitations, `PROTOCOL.md` for the
 frozen decision rules, and `RESULT.json` for machine-readable evidence.
